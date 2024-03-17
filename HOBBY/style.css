@@ -279,3 +279,64 @@
         }
     }
 
+    .info {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        margin: 100px 150px;
+        padding-bottom: 10rem;
+    }
+
+    .info-tit h1 {
+        position: relative;
+        font-size: 70px;
+        line-height: 80px;
+        font-weight: 70px;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 25px;
+        font-family: "Roboto Condensed", sans-serif;
+        justify-content: center;
+        
+    }
+
+    .info-txt {
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.785);
+        font-weight: 500px;
+        margin-bottom: 40px;
+        padding-right: 4rem;
+    }
+
+    .boton {
+        padding: 10px;
+        background-color: #ff0000;
+        margin-top: 20px;
+        border-radius: 20px;
+        color: rgb(255, 255, 255);
+        background-color: #ba2323;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        font-family: "Roboto Condensed", sans-serif;
+        transition: .7s;
+        font-size: 22px;
+    }
+
+    .boton:hover {
+        filter: invert(4);
+    }
+
+    .car {
+        width: 514px;
+        height: 333px;
+        border-radius: 50px;
+    }
+
+    .cara {
+        width: 514px;
+        height: 333px;
+        border-radius: 50px;
+        margin-right: 40px;
+    }
+
+
+

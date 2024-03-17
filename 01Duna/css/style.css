@@ -18,6 +18,14 @@
         rgba(179, 160, 78, 0.523)), url(https://static.vecteezy.com/system/resources/previews/002/172/637/non_2x/desert-landscape-with-sand-dunes-illustration-in-flat-style-vector.jpg);
     border-end-end-radius: 70px;
     border-end-start-radius: 70px;
+    background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        position: relative;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
 }
 
 body {
@@ -147,6 +155,7 @@ nav a:hover {
 }
 
 .sub{
+
     justify-items: center;
     color: rgba(107, 78, 35, 0.741);
     text-decoration: none;
@@ -156,6 +165,7 @@ nav a:hover {
 .orden{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .imgg{
