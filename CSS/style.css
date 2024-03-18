@@ -41,19 +41,28 @@
     }
 
     .nombre {
-        padding: 6px 6px;
+        padding: 6px 6px 6px;
         border-radius: 15px;
         color: rgba(255, 251, 254, 0.789);
         font-size: 33px;
         font-weight: bold;
         transition: .8s;
-        margin-top: 10px;
+        margin-top: 25px;
     }
 
     .nombre:hover {
         color: #000000;
-        background-color: rgb(255, 255, 255);
-        padding: 15px;
+    }
+
+    .cecyt {
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+    }
+    .cecyt img {
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
     }
 
     .menu .navbar ul li {
@@ -97,9 +106,9 @@
     }
 
     .header-txt h1 {
-        font-size: 70px;
-        line-height: 80px;
-        font-weight: 70px;
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 60px;
         text-transform: uppercase;
         color: #cea1ff;
         margin-bottom: 25px;
