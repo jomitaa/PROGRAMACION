@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .header {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.5)), url(https://i.blogs.es/94ae97/windows-365-1920x1080-microsoft-windows-11-4k-24070/1366_2000.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        position: relative;
+        min-height: 100vh;
+        align-items: center;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nombre {
+        padding: 6px 6px;
+        border-radius: 15px;
+        color: rgba(255, 251, 254, 0.789);
+        font-size: 33px;
+        font-weight: bold;
+        transition: .8s;
+        margin-top: 10px;
+    }
+
+    .nombre:hover {
+        color: #000000;
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+    }
+
+    .menu .navbar ul li {
+        position: relative;
+        float: left;
+    }
+
+    .menu .navbar ul li a {
+        font-size: 25px;
+        padding: 20px;
+        color: aliceblue;
+        display: block;
+        font-weight: bold;
+        transition: .6s;
+        border-radius: 15px;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #79c3f1dd;
+        margin-top: 10px;
+        padding: 10px 30px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .menu-icono {
+        width: 25px;
+    }
+
+    .menu label {
+        cursor: pointer;
+        display: none;
+
+    }
+
+    .header-txt {
+        width: 70%;
+
+    }
+
+    .header-txt h1 {
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 40px;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: 25px;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .btn {
+        color: azure;
+        padding: 15px;
+        font-size: 25px;
+        border-radius: 25px;
+        background-color: #79c3f1dd;
+        font-family: "Roboto Condensed", sans-serif;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        transition: .7s;
+    }
+
+    .btn:hover {
+        background-color: aliceblue;
+        color: black;
+    }
