@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+body {
+    background-image: linear-gradient(
+        rgba(47, 0, 147, 0.362),
+        rgba(122, 0, 0, 0.382)), url(https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2020/06/11/15918775683519.jpg);
+    color: hsl(0, 0%, 90%);
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    overflow-x: hidden;
+    min-height: 50vh;
+}
+
+.menu {
+    display: flex;
+    min-height: 100vh;
+    padding: 60px 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido {
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+}
+
+.cuadro {
+    border-color:hsla(0, 0%, 100%, 0.05);;
+    border: 3px solid hsla(0, 22%, 72%, 0.437);;
+    padding: 40px 50px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+}
+
+.cuadro h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.cuadro h4 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form {
+    margin: 20px 0px 20px;
+}
+
+.inputs {
+    margin-bottom: 30px;
+}
+
+.inputs ::placeholder {
+    color: rgba(245, 245, 245, 0.592);
+}
+
+.preguntas {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    border-bottom: 2.5px solid rgba(171, 171, 171, 0.67);
+    font-size: 18px;
+    font-weight: lighter;
+    outline: none;
+    transition: .4s;
+}
+
+.preguntas:focus{
+    border-color: rgba(223, 116, 116, 0.586);
+}
+
+.btn {
+    margin-bottom: 20px;
+    font-family: inherit;
+    color: rgb(128, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgba(255, 121, 121, 0.621);
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+.btn:hover {
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgba(136, 56, 56, 0.523);
+    color: rgb(255, 127, 202);
+
+}

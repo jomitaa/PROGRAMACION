@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: hsl(0, 0%, 90%);
+}
+
+body {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.559),
+        rgba(72, 39, 85, 0.547)), url(https://previews.123rf.com/images/ninamarya/ninamarya1409/ninamarya140900004/31690021-descuentos-fondo-est%C3%A1-hecho-de-figuras-de-papel-cortadas.jpg);
+    color: hsl(0, 0%, 90%);
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    overflow-x: hidden;
+    min-height: 50vh;
+}
+
+.menu {
+    display: flex;
+    min-height: 100vh;
+    padding: 60px 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido {
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+}
+
+.cuadro {
+    border-color:hsla(0, 0%, 100%, 0.05);;
+    border: 3px solid hsla(0, 0%, 100%, 0.437);;
+    padding: 40px 50px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+}
+
+.cuadro h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.cuadro h4 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form {
+    margin: 20px 0px 20px;
+}
+
+.input {
+    margin-bottom: 25px;
+}
+
+.input ::placeholder {
+    color: rgba(255, 255, 255, 0.441);
+}
+
+.preguntas {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    border-bottom: 2.5px solid rgba(163, 163, 163, 0.67);
+    font-size: 18px;
+    font-weight: lighter;
+    outline: none;
+    transition: .4s;
+}
+
+.preguntas:focus{
+    border-color: rgba(120, 246, 175, 0.586);
+}
+
+.btn {
+    font-family: inherit;
+    color: rgb(0, 128, 26);
+    font-size: 20px;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgba(121, 255, 150, 0.621);
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+}
+
+.btn:hover {
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgba(56, 136, 80, 0.523);
+    color: aquamarine;
+
+}
