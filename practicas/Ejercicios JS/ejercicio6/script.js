@@ -1,5 +1,5 @@
 document.getElementById('form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault();
     var birthdate = new Date(document.getElementById('birthdate').value);
     var today = new Date();
     var age = today.getFullYear() - birthdate.getFullYear();
