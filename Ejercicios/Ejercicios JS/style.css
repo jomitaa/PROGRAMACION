@@ -16,7 +16,7 @@
 }
 
 .container-barra {
-	background-color:#7e7ac7;
+	background-color:#c7a97a;
     padding: 4px;
 }
 
@@ -71,10 +71,11 @@
 
 .inicio {
 	background-image: linear-gradient(100deg, #000000, #00000020),
-		url('https://wallpapers.com/images/hd/minimalist-blue-e0q5nh2rivmv9eio.jpg');
+		url('https://crehana-blog.s3.amazonaws.com/media/filer_public/c4/16/c41620e3-dc2f-44d4-a809-6fbde674ce3a/fondos-pantalla-pc-3d-4.png');
 	height: 60rem;
 	background-size: cover;
 	background-position: center;
+	border-end-end-radius: 40px;
 }
 
 .content-inicio {
@@ -84,7 +85,7 @@
 }
 
 .content-inicio p {
-	color: #6977e2fd;
+	color: #e2a569fd;
 	font-size: 2rem;
 	margin-bottom: 1rem;
 	font-weight: 500;
@@ -132,7 +133,47 @@
 
 .p1 {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('https://i.pinimg.com/736x/b8/96/27/b896273c3b7d702f1a661fc501a67126.jpg');
+		url('https://www.finect.com/v4/resources/media/images/254ca92df54d4c2f9a635a8ec6e341ad-w1332');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.p2 {
+	background-image: linear-gradient(#00000080, #00000080),
+		url('https://png.pngtree.com/background/20230416/original/pngtree-website-technology-line-dark-background-picture-image_2443641.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.p3 {
+	background-image: linear-gradient(#00000080, #00000080),
+		url('https://previews.123rf.com/images/ninamarya/ninamarya1409/ninamarya140900004/31690021-descuentos-fondo-est%C3%A1-hecho-de-figuras-de-papel-cortadas.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.p4 {
+	background-image: linear-gradient(#00000080, #00000080),
+		url('https://previews.123rf.com/images/mousefamily/mousefamily2107/mousefamily210700355/172285318-%C3%BAtiles-escolares-sobre-fondo-morado-concepto-de-regreso-a-la-escuela-vista-superior.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.p5 {
+	background-image: linear-gradient(#00000080, #00000080),
+		url('https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2020/06/11/15918775683519.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.p6 {
+	background-image: linear-gradient(#00000080, #00000080),
+		url('https://img.lovepik.com/background/20211021/large/lovepik-the-time-line-in-the-universe-background-image_500480783.jpg');
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;

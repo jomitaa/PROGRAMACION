@@ -16,7 +16,7 @@
 }
 
 .container-barra {
-	background-color:#7e7ac7;
+	background-color:#c77a7a;
     padding: 4px;
 }
 
@@ -71,10 +71,11 @@
 
 .inicio {
 	background-image: linear-gradient(100deg, #000000, #00000020),
-		url('https://wallpapers.com/images/hd/minimalist-blue-e0q5nh2rivmv9eio.jpg');
+		url('https://fondosmil.co/fondo/13698.jpg');
 	height: 60rem;
 	background-size: cover;
 	background-position: center;
+	border-end-end-radius: 40px;
 }
 
 .content-inicio {
@@ -84,7 +85,7 @@
 }
 
 .content-inicio p {
-	color: #6977e2fd;
+	color: #e26969fd;
 	font-size: 2rem;
 	margin-bottom: 1rem;
 	font-weight: 500;
@@ -130,9 +131,41 @@
 	gap: 2rem;
 }
 
-.p1 {
+.dune {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('https://i.pinimg.com/736x/b8/96/27/b896273c3b7d702f1a661fc501a67126.jpg');
+		url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/02/dune-2613737.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.ejercicios {
+	background-image: linear-gradient(#00000080, #00000080),
+		url('https://miro.medium.com/v2/resize:fit:1200/1*LyZcwuLWv2FArOumCxobpA.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.formulario {
+	background-image: linear-gradient(#00000080, #00000080),
+		url('https://www.dongee.com/tutoriales/content/images/2022/10/image-83.png');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.js {
+	background-image: linear-gradient(#00000080, #00000080),
+		url('https://diegoboscan.com/static/738155fe5ef8b31a8de213cbd0295fc8/743e0/js-1.png');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.algoritmia {
+	background-image: linear-gradient(#00000080, #00000080),
+		url('https://elblogpython.com/wp-content/uploads/2023/07/descubre-que-es-la-algoritmia-y-como-funciona-en-el-mundo-digital.jpg');
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
